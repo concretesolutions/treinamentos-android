@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="View Animations">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/view_scale"
+                    android:title="Scale Animation" />
+                <item
+                    android:id="@+id/view_alpha"
+                    android:title="Alpha Animation" />
+                <item
+                    android:id="@+id/view_translation"
+                    android:title="Translation Animation" />
+                <item
+                    android:id="@+id/view_rotation"
+                    android:title="Rotation Animation" />
+
+                <item
+                    android:id="@+id/view_free"
+                    android:title="Livre" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Property Animation">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/property_value_text"
+                    android:title="Value Animator Text" />
+                <item
+                    android:id="@+id/property_value_color"
+                    android:title="Value Animator Color" />
+                <item
+                    android:id="@+id/property_object_float"
+                    android:title="Object Animator Float" />
+                <item
+                    android:id="@+id/property_object_corner"
+                    android:title="Object Animator Corner" />
+                <item
+                    android:id="@+id/property_set"
+                    android:title="Set Animation" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Drawable Animation">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/drawable_loading"
+                    android:title="Loading" />
+                <item
+                    android:id="@+id/drawable_like"
+                    android:title="Like" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
